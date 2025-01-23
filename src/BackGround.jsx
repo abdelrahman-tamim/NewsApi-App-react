@@ -7,9 +7,9 @@ const BackGround = () => {
         <img className="logo" src="./src/images/NEWSLETTER.PNG" alt="" />
         <input type="search" placeholder="Search For Headlines"/>
         <button>Search</button>
-        <Nav/>
+       
       </div>
-      <div></div>
+      
     </>
   );
 };

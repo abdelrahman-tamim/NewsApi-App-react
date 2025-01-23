@@ -1,13 +1,13 @@
 .main-div{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: 50px;
-    right: 28px;
+  
+   display: flex;
+   flex-wrap: wrap;
+    margin-right: 5px;
     
 }
 ul {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     gap: 20px;
     background-color: #1A1A1A;
@@ -15,8 +15,8 @@ ul {
     height: 50px;
     font-size: large;
     align-items: center;
-    width: 70.5vw;
-    position: relative;
+   /*  width: 70.5vw; 
+    position: relative;*/
     
 }
 li:hover{
@@ -28,13 +28,15 @@ li:hover{
 
 li:last-child{
     position: relative;
-    top: 3px;
-    left: 180px ;
+    margin-left: 170px;
+    margin-right: 5px;
+    
 }
 ul li{
     height: 100%;
     display: flex;
     align-items: center;
+    flex: auto;
 }
 
 

@@ -2,6 +2,7 @@ import { useState, useEffect, memo } from "react";
 import NewsCard from "./NewsCard";
 import "./News.css";
 import NewsAside from "./NewsAside";
+import Nav from "./Nav";
 const News = () => {
   const [newsArray, setNewsArray] = useState([]);
 
@@ -23,7 +24,7 @@ const News = () => {
 
     getNews();
   }, []);
-  console.log(newsArray[0]);
+ 
 
   const MoreNews = async () => {
     const response = await fetch(
@@ -35,13 +36,14 @@ const News = () => {
 
   return (
     <>
+    <div className="navandmain">
+    <Nav/>
       <div className="main-story">
         {newsArray.length > 0 ? (
           <>
-          
             <NewsCard
               newsstory={
-                newsArray[0]
+                newsArray[15]
               }
              
             />
@@ -58,15 +60,18 @@ const News = () => {
                 }
               />
             </div>
+            
           </>
         ) : (
           <div>loading</div>
         )}
       </div>
+      </div>
       <div className="latest-news">Latest News</div>
 
+      <div className="All-frontpage">
       <div className="FrontPage">
-        {newsArray.slice(3).map((newsstory) => {
+        {newsArray.slice(1).map((newsstory) => {
           return <NewsCard newsstory={newsstory} />;
         })}
       </div>
@@ -79,6 +84,7 @@ const News = () => {
           .map((newsstory) => {
             return <NewsAside newsstory={newsstory} />;
           })}
+      </div>
       </div>
       <input
         className="showmore"
