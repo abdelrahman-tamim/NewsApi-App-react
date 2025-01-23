@@ -1,33 +1,37 @@
-body{
+body {
     background-color: #f3f2ea;
 }
-.nav-div{
+
+.nav-div {
     background-color: black;
     height: 500px;
 }
-.logo{
+
+.logo {
     margin-top: 50px;
     margin-left: 30px;
 }
-input[type=search]{
+
+input[type=search] {
     background-color: #04594D;
     border: none;
     height: 40px;
-    width:400px ;
-    position: fixed;
+    width: 400px;
+    position: absolute;
     right: 150px;
     top: 49px;
     padding-left: 30px;
 
 }
-button{
+
+button {
     height: 40px;
     border: none;
     background-color: #8E4042;
-    position: fixed;
+    position: absolute;
     right: 86px;
     top: 49px;
-    
+
     color: white;
     font-size: medium;
 }
