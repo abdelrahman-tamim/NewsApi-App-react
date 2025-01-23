@@ -1,0 +1,32 @@
+body{
+    background-color: #f3f2ea;
+}
+.nav-div{
+    background-color: black;
+    height: 500px;
+}
+.logo{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+input[type=search]{
+    background-color: #04594D;
+    border: none;
+    height: 40px;
+    width:400px ;
+    position: relative;
+    left: 700px;
+    bottom: 15px;
+    padding-left: 30px;
+
+}
+button{
+    height: 40px;
+    border: none;
+    background-color: #8E4042;
+    position: relative;
+    left: 701px;
+    bottom: 14px;
+    color: white;
+    font-size: medium;
+}

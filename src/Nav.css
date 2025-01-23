@@ -1,0 +1,41 @@
+.main-div{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    right: 28px;
+    
+}
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    background-color: #1A1A1A;
+    color: white;
+    height: 50px;
+    font-size: large;
+    align-items: center;
+    width: 70.5vw;
+    position: relative;
+    
+}
+li:hover{
+    cursor: pointer;
+    background-color: #04594D;
+    transform: scale(1.1);
+    
+}
+
+li:last-child{
+    position: relative;
+    top: 3px;
+    left: 180px ;
+}
+ul li{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+
