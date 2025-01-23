@@ -14,9 +14,9 @@ input[type=search]{
     border: none;
     height: 40px;
     width:400px ;
-    position: relative;
-    left: 700px;
-    bottom: 15px;
+    position: fixed;
+    right: 150px;
+    top: 49px;
     padding-left: 30px;
 
 }
@@ -24,9 +24,10 @@ button{
     height: 40px;
     border: none;
     background-color: #8E4042;
-    position: relative;
-    left: 701px;
-    bottom: 14px;
+    position: fixed;
+    right: 86px;
+    top: 49px;
+    
     color: white;
     font-size: medium;
 }

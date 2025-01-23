@@ -1,22 +1,19 @@
 .FrontPage {
-   /*  width: 70vw; */
+  
     margin-left: 15px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
-   /*  position: relative;
-    bottom: 300px; */
-   /*  margin-top: 40px; */
    
 }
 
 .main-story {
     position: relative;
-    width: 70.55vw;
+    width: 71.5vw;
     padding: 30px;
     display: grid;
     grid-template-columns: 1.5fr 1fr;
-    bottom: 46px;
+    bottom: 50px;
 }
 
 .main-story img {
@@ -37,7 +34,7 @@
 
 .aside-page {
     background-color: white;
-   height: fit-content;
+    height: fit-content;
     padding: 10px;
     padding-top: 20px;
     
@@ -68,9 +65,14 @@
     background-color: black;
 }
 
+.main-story-aside{
+    display: flex;
+    flex-direction: column;
+    
+}
 .main-story-aside img {
-    width: 80%;
-    height: 50%;
+    width: 90%;
+    height: 60%;
     margin-left: 35px;
 
 }
@@ -104,13 +106,14 @@
     
 }
 .navandmain{
-   
+    
     display: flex;
     flex-direction: column;
     position: relative;
     align-items: center;
-    flex-wrap: wrap;
-    bottom: 350px;
+    flex-wrap:wrap ;
+     bottom: 350px; 
+    z-index: 4;
    
     
 }
